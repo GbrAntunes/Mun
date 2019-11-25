@@ -1,0 +1,23 @@
+{
+    "name": "mun/mvc",
+    "require": {
+        "php": ">=7.0"
+    },
+
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Gabriel Antunes",
+            "email": "gbr.antunes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["App/"],
+        "psr-4": {
+            "App\\": "/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
