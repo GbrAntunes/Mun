@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInitf81b371d864a9a8bd1029d2637663c18
 {
     public static $prefixLengthsPsr4 = array (
+        'M' => 
+        array (
+            'Mun\\' => 4,
+        ),
         'A' => 
         array (
             'App\\' => 4,
@@ -14,6 +18,10 @@ class ComposerStaticInitf81b371d864a9a8bd1029d2637663c18
     );
 
     public static $prefixDirsPsr4 = array (
+        'Mun\\' => 
+        array (
+            0 => 'C:\\xampp7\\htdocs\\Mun\\vendor',
+        ),
         'App\\' => 
         array (
             0 => '/',
