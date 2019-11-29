@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Mun\\' => array($vendorDir . ''),
-    'App\\' => array('/'),
+    'App\\' => array($baseDir.'/'),
 );

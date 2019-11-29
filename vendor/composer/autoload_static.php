@@ -20,7 +20,7 @@ class ComposerStaticInitf81b371d864a9a8bd1029d2637663c18
     public static $prefixDirsPsr4 = array (
         'Mun\\' => 
         array (
-            0 => 'C:\\xampp\\htdocs\\Mun\\vendor',
+            0 => 'C:\\xampp7\\htdocs\\Mun\\vendor',
         ),
         'App\\' => 
         array (
@@ -28,11 +28,16 @@ class ComposerStaticInitf81b371d864a9a8bd1029d2637663c18
         ),
     );
 
+    public static $classMap = array (
+        'App\\Init' => __DIR__ . '/../..' . '/App/Init.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitf81b371d864a9a8bd1029d2637663c18::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitf81b371d864a9a8bd1029d2637663c18::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitf81b371d864a9a8bd1029d2637663c18::$classMap;
 
         }, null, ClassLoader::class);
     }
