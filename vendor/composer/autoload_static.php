@@ -20,7 +20,7 @@ class ComposerStaticInitf81b371d864a9a8bd1029d2637663c18
     public static $prefixDirsPsr4 = array (
         'Mun\\' => 
         array (
-            0 => 'C:\\xampp7\\htdocs\\Mun\\vendor',
+            0 => 'C:\\xampp\\htdocs\\Mun\\vendor',
         ),
         'App\\' => 
         array (
